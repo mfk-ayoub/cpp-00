@@ -1,11 +1,5 @@
 #include <iostream>
-
-int convert_toupper(int c)
-{
-	if ('a' <= c && 'z' >= c)
-		return (c - 32);
-	return (c);
-}
+#include <cctype>
 
 int  main(int ac,char **av)
 {
@@ -22,7 +16,7 @@ int  main(int ac,char **av)
 		i = 0;
 		while (av[counter][i])
 		{
-			c = convert_toupper(av[counter][i]);
+			c = toupper(av[counter][i]);
 			std::cout << c;
 			i++;
 		}
@@ -31,3 +25,4 @@ int  main(int ac,char **av)
 	std::cout << '\n';
 	return (0);
 }
+
