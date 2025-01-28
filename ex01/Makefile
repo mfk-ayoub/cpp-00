@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/01/28 06:42:37 by ayel-mou          #+#    #+#              #
-#    Updated: 2025/01/28 06:42:38 by ayel-mou         ###   ########.fr        #
+#    Created: 2025/01/28 06:42:33 by ayel-mou          #+#    #+#              #
+#    Updated: 2025/01/28 06:43:13 by ayel-mou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME:=megaphone
+NAME:=phonebook
 BINDIR:=bin/
 
 CC:=c++
