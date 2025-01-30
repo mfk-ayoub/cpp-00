@@ -19,6 +19,11 @@ int main(int ac,char **av)
 			std::cout << "GOOD BYE!\n";
 			break;
 		}
+		else if  (command.compare("SHOW") == 0)
+		{
+			phonebook.DisplayContact();
+			break;
+		}
 		else
 			std::cout << "Invalid command try again! \n";
 	}
