@@ -12,6 +12,16 @@ int main(int ac,char **av)
 	{
 		std::cout << "Enter command (ADD, SEARCH, EXIT): ";
     	std::getline(std::cin, command);
+		// {
+		// 	std::cout << "\nGOOD BYE!\n";
+		// 	break;
+		// }
+		if (std::cin.eof())
+		{
+
+			return (1);
+		}
+		
 		if (command.compare("ADD") == 0)
 			phonebook.addContact();
 		else if  (command.compare("EXIT") == 0)
@@ -19,9 +29,9 @@ int main(int ac,char **av)
 			std::cout << "GOOD BYE!\n";
 			break;
 		}
-		else if  (command.compare("SHOW") == 0)
+		else if  (command.compare("SEARCH") == 0)
 		{
-			phonebook.DisplayContact();
+			phonebook.SearchInContact();
 			break;
 		}
 		else

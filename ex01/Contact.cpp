@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 06:41:38 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/01/30 06:16:04 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/01/31 05:06:19 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,18 @@ void Contact::Setcontact()
 		std::cout << "Error: Contact not saved.\n";
 		return ;
 	}
+}
+
+void Contact::DisplayContact()
+{
+	std::cout << "First Name is: " ;
+	std::cout << FirstName << std::endl;
+	std::cout << "Last Name is: " ;
+	std::cout << LastName << std::endl;
+	std::cout << "Phone Number is: " ;
+	std::cout << PhoneNumber << std::endl;
+	std::cout << "Nick Name is: " ;
+	std::cout << NickName << std::endl;
+	std::cout << "Darkest Secret: is: " ;
+	std::cout << DarkestSecret << std::endl;
 }
