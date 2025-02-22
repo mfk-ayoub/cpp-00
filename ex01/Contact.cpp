@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 06:41:38 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/01/31 05:06:19 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/02/22 05:01:05 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ void Contact::Setcontact()
 	}
 }
 
-void Contact::DisplayContact()
+void Contact::GetContact()
 {
 	std::cout << "First Name is: " ;
 	std::cout << FirstName << std::endl;
@@ -57,4 +57,29 @@ void Contact::DisplayContact()
 	std::cout << NickName << std::endl;
 	std::cout << "Darkest Secret: is: " ;
 	std::cout << DarkestSecret << std::endl;
+}
+
+std::string Contact::getFirstName() const 
+{
+    return FirstName;
+}
+
+std::string Contact::getLastName() const
+{
+	return LastName;
+}
+
+std::string Contact::getNickName() const
+{
+	return NickName;
+}
+
+std::string Contact::getPoneNumber() const
+{
+	return PhoneNumber;
+}
+
+std::string Contact::getDarkestSecret() const
+{
+	return DarkestSecret;
 }

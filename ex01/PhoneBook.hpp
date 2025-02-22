@@ -6,7 +6,7 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 06:44:59 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/01/31 06:17:21 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/02/22 05:01:35 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,9 @@
 #define PHONEBOOK_HPP
 
 #include "Contact.hpp"
+#include <iomanip>
+#include <iostream>
+#include <cstdlib>
 
 class PhoneBook
 {
@@ -27,6 +30,7 @@ public:
 	~PhoneBook();
 	void addContact();
 	void SearchInContact();
+	void DisplayContacts();
 };
 
 
