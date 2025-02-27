@@ -6,12 +6,12 @@
 /*   By: ayel-mou <ayel-mou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/28 06:41:02 by ayel-mou          #+#    #+#             */
-/*   Updated: 2025/02/22 05:01:18 by ayel-mou         ###   ########.fr       */
+/*   Updated: 2025/02/27 05:27:50 by ayel-mou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CONTACT_HPP
-#define CONTACT_HPP
+#ifndef _CONTACT_HPP_
+#define _CONTACT_HPP_
 
 #include <string>
 #include <iostream>
